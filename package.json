@@ -1,7 +1,7 @@
 {
   "name": "finalversion",
   "version": "1.0.0",
-  "description": "",
+  "description": "desc",
   "main": "app.js",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -21,6 +21,14 @@
   "author": "hashem",
   "license": "ISC",
   "engines": {
-    "node": "10.19.0"
-  }
+    "node": "16.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamhashemtarek/Natours.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamhashemtarek/Natours/issues"
+  },
+  "homepage": "https://github.com/iamhashemtarek/Natours#readme"
 }
