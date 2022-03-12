@@ -1,8 +1,8 @@
-process.on("uncaughtException", (err) => {
-  console.log("uncaught Exception");
-  console.log(err.name, err.message);
-  process.exit(1);
-});
+// process.on("uncaughtException", (err) => {
+//   console.log("uncaught Exception");
+//   console.log(err.name, err.message);
+//   process.exit(1);
+// });
 
 const dotenv = require("dotenv");
 dotenv.config({ path: "./config.env" });
@@ -48,10 +48,10 @@ app.listen(port, () => {
   console.log(`app is running on port ${port}`);
 });
 
-process.on("unhandledRejection", (err) => {
-  console.log("unhadled Rejection");
-  console.log(err.name, err.message);
-  app.close(() => {
-    process.exit(1);
-  });
-});
+// process.on("unhandledRejection", (err) => {
+//   console.log("unhadled Rejection");
+//   console.log(err.name, err.message);
+//   app.close(() => {
+//     process.exit(1);
+//   });
+// });
